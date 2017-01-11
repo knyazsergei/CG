@@ -1,0 +1,34 @@
+﻿  Window.cpp
+d:\projects\cg\example\consoleapplication1\window.cpp(23): warning C4244: аргумент: преобразование "const int" в "GLfloat", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(26): warning C4018: <=: несоответствие типов со знаком и без знака
+d:\projects\cg\example\consoleapplication1\window.cpp(26): warning C4244: +=: преобразование "const float" в "std::size_t", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(29): warning C4244: аргумент: преобразование "std::size_t" в "GLfloat", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(30): warning C4244: аргумент: преобразование "std::size_t" в "GLfloat", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(38): warning C4244: аргумент: преобразование "const int" в "GLfloat", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(41): warning C4018: <=: несоответствие типов со знаком и без знака
+d:\projects\cg\example\consoleapplication1\window.cpp(41): warning C4244: +=: преобразование "const float" в "std::size_t", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(44): warning C4244: аргумент: преобразование "std::size_t" в "GLfloat", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(45): warning C4244: аргумент: преобразование "std::size_t" в "GLfloat", возможна потеря данных
+d:\projects\cg\example\consoleapplication1\window.cpp(75): warning C4244: аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateWindow в функции "public: void __thiscall CAbstractWindow::Impl::Show(struct glm::tvec2<int,0> const &)" (?Show@Impl@CAbstractWindow@@QAEXABU?$tvec2@H$0A@@glm@@@Z)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_DestroyWindow в функции "public: __thiscall CAbstractWindow::Impl::Impl(void)" (??0Impl@CAbstractWindow@@QAE@XZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_GL_SetAttribute в функции "public: void __thiscall CAbstractWindow::Impl::Show(struct glm::tvec2<int,0> const &)" (?Show@Impl@CAbstractWindow@@QAEXABU?$tvec2@H$0A@@glm@@@Z)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_GL_CreateContext в функции "public: void __thiscall CAbstractWindow::Impl::Show(struct glm::tvec2<int,0> const &)" (?Show@Impl@CAbstractWindow@@QAEXABU?$tvec2@H$0A@@glm@@@Z)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_GL_SwapWindow в функции "public: void __thiscall CAbstractWindow::Impl::SwapBuffers(void)const " (?SwapBuffers@Impl@CAbstractWindow@@QBEXXZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_GL_DeleteContext в функции "public: __thiscall CAbstractWindow::Impl::Impl(void)" (??0Impl@CAbstractWindow@@QAE@XZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_PollEvent в функции "public: void __thiscall CAbstractWindow::DoGameLoop(void)" (?DoGameLoop@CAbstractWindow@@QAEXXZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glClear@4 в функции "public: void __thiscall CAbstractWindow::Impl::Clear(void)const " (?Clear@Impl@CAbstractWindow@@QBEXXZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glClearColor@16 в функции "public: void __thiscall CAbstractWindow::Impl::Clear(void)const " (?Clear@Impl@CAbstractWindow@@QBEXXZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glGetError@0 в функции "public: void __thiscall CAbstractWindow::Impl::DumpGLErrors(void)" (?DumpGLErrors@Impl@CAbstractWindow@@QAEXXZ)
+AbstractWindow.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glewInit@0 в функции "public: void __thiscall <lambda_25f42b891291332c8f1adeb64fe6914e>::operator()(void)const " (??R<lambda_25f42b891291332c8f1adeb64fe6914e>@@QBEXXZ)
+ConsoleApplication1.obj : error LNK2001: неразрешенный внешний символ "__imp__glewInit@0"
+AbstractWindow.obj : error LNK2001: неразрешенный внешний символ "__imp__glewExperimental"
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glBegin@4 в функции "void __cdecl `anonymous namespace'::ArchimedeanSpiral(struct glm::tvec2<int,0> const &,double)" (?ArchimedeanSpiral@?A0x9117650c@@YAXABU?$tvec2@H$0A@@glm@@N@Z)
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glColor3f@12 в функции "void __cdecl `anonymous namespace'::ArchimedeanSpiral(struct glm::tvec2<int,0> const &,double)" (?ArchimedeanSpiral@?A0x9117650c@@YAXABU?$tvec2@H$0A@@glm@@N@Z)
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glEnd@0 в функции "void __cdecl `anonymous namespace'::ArchimedeanSpiral(struct glm::tvec2<int,0> const &,double)" (?ArchimedeanSpiral@?A0x9117650c@@YAXABU?$tvec2@H$0A@@glm@@N@Z)
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glLoadMatrixf@4 в функции "private: void __thiscall CWindow::SetupView(struct glm::tvec2<int,0> const &)" (?SetupView@CWindow@@AAEXABU?$tvec2@H$0A@@glm@@@Z)
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glMatrixMode@4 в функции "private: void __thiscall CWindow::SetupView(struct glm::tvec2<int,0> const &)" (?SetupView@CWindow@@AAEXABU?$tvec2@H$0A@@glm@@@Z)
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glVertex2f@8 в функции "void __cdecl `anonymous namespace'::ArchimedeanSpiral(struct glm::tvec2<int,0> const &,double)" (?ArchimedeanSpiral@?A0x9117650c@@YAXABU?$tvec2@H$0A@@glm@@N@Z)
+Window.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glViewport@16 в функции "private: void __thiscall CWindow::SetupView(struct glm::tvec2<int,0> const &)" (?SetupView@CWindow@@AAEXABU?$tvec2@H$0A@@glm@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\projects\cg\example\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1120: неразрешенных внешних элементов: 20

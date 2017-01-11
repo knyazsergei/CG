@@ -1,0 +1,8 @@
+C:/Users/Sergey/Downloads/gg/CMakeFiles/lesson_14.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/libchapter3.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/lesson_13.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/lesson_15.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/lesson_16.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/lesson_17.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sergey/Downloads/gg/CMakeFiles/ZERO_CHECK.dir

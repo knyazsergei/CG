@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\res">
+      <UniqueIdentifier>{458d656a-bc28-4903-bff2-55fdcd856a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\src">
+      <UniqueIdentifier>{763bab73-7926-4742-94c1-711574bdc400}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libchapter3.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TwistValueController.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WhitneyUmbrella.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowClient.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractWindowClient.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArrayObject.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BufferObject.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FilesystemUtils.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FloatRect.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libchapter3_private.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lights.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProgramInfo.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProgramUniform.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderProgram.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture2D.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd_party\tinyxml2.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexAttribute.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AbstractWindowClient.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArrayObject.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BufferObject.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FilesystemUtils.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FloatRect.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lights.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProgramInfo.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProgramUniform.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderProgram.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture2D.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd_party\tinyxml2.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexAttribute.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Файлы ресурсов\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TwistValueController.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="WhitneyUmbrella.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowClient.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\checkers.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\checkers-and-triangle.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\cloud_earth.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\cloud_earth.vert">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\cloud_earth_robust.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\cloud_earth_robust.vert">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\copytexture.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\copytexture.vert">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\lambert.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\lambert-phong.vert">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\phong.frag">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+    <None Include="res\twist.vert">
+      <Filter>Файлы ресурсов\res</Filter>
+    </None>
+  </ItemGroup>
+</Project>

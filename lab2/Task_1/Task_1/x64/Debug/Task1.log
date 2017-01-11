@@ -1,0 +1,17 @@
+﻿  Window.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  stdafx.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  main.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Light.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  DispatchEvent.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Camera.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Bodies.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  AbstractWindow.cpp
+c:\github\cg\lab2\task1\task1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Создание кода...

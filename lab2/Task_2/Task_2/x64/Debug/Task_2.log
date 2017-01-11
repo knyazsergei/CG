@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+c:\github\cg\lab2\task_2\task_2\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory

@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Task1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Window.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  stdafx.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  main.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Light.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  DispatchEvent.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Camera.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Bodies.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  AbstractWindow.cpp
+c:\users\sergey\documents\visual studio 2015\projects\cg\task_1\task_1\stdafx.h(12): fatal error C1083: Не удается открыть файл включение: GL/glew.h: No such file or directory
+  Создание кода...

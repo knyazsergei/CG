@@ -1,0 +1,47 @@
+﻿  WindowClient.cpp
+c:\github\cg\lab3\cannabola\cannabola\windowclient.cpp(1): fatal error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\Cannabola.pch: No such file or directory
+  WhitneyUmbrella.cpp
+c:\github\cg\lab3\cannabola\cannabola\whitneyumbrella.cpp(1): fatal error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\Cannabola.pch: No such file or directory
+  TwistValueController.cpp
+c:\github\cg\lab3\cannabola\cannabola\twistvaluecontroller.cpp(1): fatal error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\Cannabola.pch: No such file or directory
+  stdafx.cpp
+c:\github\cg\lab3\cannabola\cannabola\stdafx.cpp(1): fatal error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\Cannabola.pch: No such file or directory
+  Window.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\window.cpp(306): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  VertexAttribute.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\vertexattribute.cpp(32): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Utils.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\utils.cpp(141): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Texture2D.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\texture2d.cpp(291): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  ShaderProgram.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\shaderprogram.cpp(218): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  ProgramUniform.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\programuniform.cpp(49): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  ProgramInfo.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\programinfo.cpp(117): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Lights.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\lights.cpp(180): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  FloatRect.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\floatrect.cpp(61): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  FilesystemUtils.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\filesystemutils.cpp(125): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Camera.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\camera.cpp(108): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  BufferObject.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\bufferobject.cpp(79): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  ArrayObject.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\arrayobject.cpp(24): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  AbstractWindowClient.cpp
+c:\github\cg\lab3\cannabola\cannabola\src\abstractwindowclient.cpp(24): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  main.cpp
+c:\github\cg\lab3\cannabola\cannabola\main.cpp(1): fatal error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\Cannabola.pch: No such file or directory
+  tinyxml2.cpp
+c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(65): warning C4005: TIXML_SSCANF: изменение макроопределения
+  c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(60): note: см. предыдущее определение "TIXML_SSCANF"
+c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(92): warning C4005: TIXML_SNPRINTF: изменение макроопределения
+  c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(63): note: см. предыдущее определение "TIXML_SNPRINTF"
+c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(93): warning C4005: TIXML_VSNPRINTF: изменение макроопределения
+  c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(64): note: см. предыдущее определение "TIXML_VSNPRINTF"
+c:\github\cg\lab3\cannabola\cannabola\3rd_party\tinyxml2.cpp(2548): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Создание кода...

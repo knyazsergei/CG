@@ -58,13 +58,13 @@ bool inCross(vec2 center, vec2 radius, vec2 point)
 }
 
 
-//chekc in ring
+//check in ring
 bool inRing(vec2 center, vec2 point, float radius1, float radius2)
 {
 	return pow((point.x - center.x), 2) + pow((point.y - center.y), 2) < radius1 * radius1 && pow((point.x - center.x), 2) + pow((point.y - center.y), 2) > radius2 * radius2;
 }
 
-//creat star
+//create star
 vec2[5] CreateStarVertexes(vec2 center, float radius)
 {
 	vec2 starsVert[5];

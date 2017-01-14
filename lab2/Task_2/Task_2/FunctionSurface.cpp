@@ -146,39 +146,12 @@ void CSolidFunctionSurface::Draw() const
 		mode = GL_LINE;
 	}
 
-	// TODO: two-side light
-	//ApplyColor(m_vertices, m_isColor, m_colors);
-	/*auto color = m_colors.front();
-	for (auto & v : m_vertices)
-	{
-		if (m_isColor)
-		{
-			v.color = glm::vec3(color);
-			++color;
-		}
-		else
-		{
-			v.color = GREEN_COLOR;
-		}
-	}*/
-	
 	glPolygonMode(GL_FRONT_AND_BACK, mode);
-	//glCullFace(GL_BACK);
-	//glFrontFace(GL_CW);
 	DoWithBindedArrays(m_vertices, [&] {
 		
 		glDrawElements(GL_TRIANGLE_STRIP, GLsizei(m_indicies.size()),
 			GL_UNSIGNED_INT, m_indicies.data());
 	});
-
-	//glCullFace(GL_FRONT);
-#if 0
-	glFrontFace(GL_CCW);
-	DoWithBindedArrays(m_vertices, [&] {
-		glDrawElements(GL_TRIANGLE_STRIP, GLsizei(m_indicies.size()),
-			GL_UNSIGNED_INT, m_indicies.data());
-	});
-#endif
 }
 
 void CSolidFunctionSurface::ChangeMode()
